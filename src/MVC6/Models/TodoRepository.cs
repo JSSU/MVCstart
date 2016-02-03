@@ -13,6 +13,8 @@ namespace MVC6.Models
         public TodoRepository()
         {
             Add(new TodoItem { Name = "Item1" });
+            Add(new TodoItem { Name = "Item2" });
+            Add(new TodoItem { Name = "Item3" });
         }
 
         public IEnumerable<TodoItem> GetAll()
